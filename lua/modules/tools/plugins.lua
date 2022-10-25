@@ -1,7 +1,3 @@
-local function load_cfg(file)
-    return string.format([[require("modules.tools.%s")]], file)
-end
-
 return {
     -- file icons
     { "kyazdani42/nvim-web-devicons" },
@@ -17,21 +13,4 @@ return {
     { "romainl/vim-cool" },
     -- delete buffer without messing up windows layout
     { "famiu/bufdelete.nvim" },
-
-    -- treesitter
-    {
-        "nvim-treesitter/nvim-treesitter",
-        run = ":TSUpdate",
-        config = load_cfg("treesitter"),
-    },
-    { "nvim-treesitter/nvim-treesitter-textobjects", after = "nvim-treesitter" },
-    { "p00f/nvim-ts-rainbow", after = "nvim-treesitter" },
-    { "JoosepAlviste/nvim-ts-context-commentstring", after = "nvim-treesitter" },
-
-    -- telescope
-    {
-        "nvim-telescope/telescope.nvim",
-        cmd = "Telescope",
-        config = load_cfg("telescope"),
-    },
 }

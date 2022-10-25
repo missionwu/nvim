@@ -1,71 +1,54 @@
-local options = {
-    tabstop           = 4,
-    shiftwidth        = 4,
-    softtabstop       = 4,
-    autoindent        = true,
-    expandtab         = true,
-    smarttab          = true,
+-- tab
+vim.opt.tabstop     = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth  = 4
+vim.opt.expandtab   = true
+vim.opt.autoindent  = true
+vim.opt.smarttab    = true
 
-    number            = true,
-    relativenumber    = false,
-    signcolumn        = "yes",
-    wrap              = false,
-    textwidth         = 80,
-    colorcolumn       = "81",
-    cursorline        = true,
-    cursorcolumn      = false,
-    list              = true,
-    listchars         = "tab:»■,trail:■",
-    fillchars         = "vert:▋,eob: ,",
-    foldenable        = true,
-    foldlevelstart    = 99,
+-- line number
+vim.opt.number     = true
+vim.opt.signcolumn = "yes"
 
-    ignorecase        = true,
-    smartcase         = true,
-    infercase         = true,
-    incsearch         = true,
-    wrapscan          = true,
+-- text
+vim.opt.wrap           = false
+vim.opt.cursorline     = true
+vim.opt.colorcolumn    = "81"
+vim.opt.foldenable     = true
+vim.opt.foldlevelstart = 99
 
-    backup            = false,
-    writebackup       = false,
-    swapfile          = false,
-    undofile          = false,
+-- list
+vim.opt.list      = true
+vim.opt.listchars = "tab:»■,trail:■,"
+vim.opt.fillchars = "vert:▋,eob: ,"
 
-    hidden            = true,
-    magic             = true,
-    mouse             = "",
-    encoding          = "utf-8",
-    fileformats       = "unix,mac,dos",
-    history           = 1000,
-    clipboard         = "unnamedplus",
-    backspace         = "indent,start,eol",
-    virtualedit       = "block",
-    jumpoptions       = "stack",
-    completeopt       = "menuone,noselect",
-    splitbelow        = true,
-    splitright        = true,
-    errorbells        = false,
-    visualbell        = false,
-    scrolloff         = 5,
-    sidescrolloff     = 5,
-    autoread          = true,
-    autowrite         = true,
-    termguicolors     = true,
+-- search
+vim.opt.ignorecase = true
+vim.opt.smartcase  = true
+vim.opt.infercase  = true
+vim.opt.incsearch  = true
+vim.opt.wrapscan   = false
 
-    timeout           = true,
-    ttimeout          = true,
-    timeoutlen        = 500,
-    ttimeoutlen       = 0,
-    updatetime        = 100,
-    redrawtime        = 1500,
+-- backup
+vim.opt.backup      = false
+vim.opt.writebackup = false
+vim.opt.swapfile    = false
+vim.opt.undofile    = false
 
-    winwidth          = 30,
-    winminwidth       = 10,
-    pumheight         = 15,
-    cmdheight         = 1,
-    cmdwinheight      = 5,
-}
-
-for name, value in pairs(options) do
-vim.opt[name] = value
-end
+-- other
+vim.opt.hidden      = true
+vim.opt.magic       = true
+vim.opt.mouse       = ""
+vim.opt.splitbelow  = true
+vim.opt.splitright  = true
+vim.opt.errorbells  = false
+vim.opt.visualbell  = false
+vim.opt.scrolloff   = 5
+vim.opt.virtualedit = "block"
+vim.opt.completeopt = "menuone,noselect"
+vim.opt.timeout     = true
+vim.opt.ttimeout    = true
+vim.opt.timeoutlen  = 500
+vim.opt.ttimeoutlen = 0
+vim.opt.updatetime  = 100
+vim.opt.redrawtime  = 1500

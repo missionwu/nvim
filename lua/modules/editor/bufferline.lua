@@ -11,7 +11,7 @@ require("bufferline").setup({
         show_tab_indicators = false,
         close_icon = "",
         diagnostics = "nvim_lsp",
-        always_show_bufferline = false,
+        always_show_bufferline = true,
         separator_style = "thin",
         offsets = {
             {
