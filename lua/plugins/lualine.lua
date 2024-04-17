@@ -24,11 +24,6 @@ return {
             padding = { left = 1, right = 0 },
         }
 
-        local branch = {
-            "branch",
-            color = { bg = "none", fg = "#6a9589" },
-        }
-
         require("lualine").setup {
             options = {
                 icons_enabled = true,
@@ -48,13 +43,13 @@ return {
                 lualine_a = { },
                 lualine_b = { },
                 lualine_c = { fileicon, filename },
-                lualine_x = { "%p%%", branch },
-                lualine_y = { },
+                lualine_x = { "%p%%" },
+                lualine_y = { "branch" },
                 lualine_z = { },
             },
             inactive_sections = {
                 lualine_a = { },
-                lualine_b = { },
+                lualine_b = { "filename" },
                 lualine_c = { },
                 lualine_x = { },
                 lualine_y = { },

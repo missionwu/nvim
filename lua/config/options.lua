@@ -19,3 +19,16 @@ opt.fillchars = "eob: ,"
 
 opt.splitright = true
 opt.splitbelow = true
+opt.visualbell = false
+opt.errorbells = false
+
+opt.timeout = true
+opt.ttimeout = true
+opt.timeoutlen = 300
+opt.ttimeoutlen = 0
+opt.redrawtime = 1500
+opt.updatetime = 200
+
+opt.backup = false
+opt.swapfile = false
+opt.undofile = false

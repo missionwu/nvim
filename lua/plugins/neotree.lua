@@ -89,7 +89,6 @@ return {
                     nowait = true,
                 },
                 mappings = {
-                    ["<cr>"] = { "toggle_node", nowait = false },
                     ["<cr>"] = "open",
                     ["<esc>"] = "cancel",
                     ["S"] = "open_split",
