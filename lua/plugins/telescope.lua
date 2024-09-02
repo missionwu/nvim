@@ -18,6 +18,7 @@ return {
                     i = {
                         ["<Tab>"] = "move_selection_next",
                         ["<S-Tab>"] = "move_selection_previous",
+                        ["<C-s>"] = "select_vertical",
                     },
                 },
                 vimgrep_arguments = {

@@ -47,6 +47,7 @@ return {
                 { name = "luasnip" },
                 { name = "buffer" },
                 { name = "spell" },
+                { name = "crates" },
             },
             window = {
                 completion = {
