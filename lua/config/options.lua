@@ -5,13 +5,14 @@ local options = {
     expandtab = true,
     autoindent = true,
 
-    mouse = "nv",
+    mouse = "",
     wrap = false,
     number = true,
     signcolumn = "yes",
     cursorline = true,
     colorcolumn = "80",
     laststatus = 3,
+    completeopt = "menuone,noselect,noinsert",
 
     list = true,
     listchars = "tab:»»,trail:■",

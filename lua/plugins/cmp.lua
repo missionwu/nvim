@@ -16,6 +16,7 @@ return {
         local luasnip = require("luasnip")
 
         cmp.setup {
+            preselect = cmp.PreselectMode.None, -- disable LSP preselect
             snippet = {
                 expand = function(args)
                     luasnip.lsp_expand(args.body)
