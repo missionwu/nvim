@@ -14,7 +14,7 @@ local options = {
     laststatus = 3,
 
     list = true,
-    listchars = "",
+    listchars = "tab:»»,trail:■",
     fillchars = "eob: ,",
 
     splitright = false,
