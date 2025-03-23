@@ -9,6 +9,11 @@ return {
                 "c",
                 "cpp",
                 "lua",
+                "go",
+                "java",
+                "python",
+                "markdown",
+                "make",
             },
             auto_install = false,
             highlight = {
