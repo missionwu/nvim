@@ -23,6 +23,10 @@ return {
                 max_height = 0.8,
                 left_width = 0.3,
             },
+            lightbulb = {
+                enable = true,
+                sign = false,
+            },
             request_timeout = 3000,
         }
 
