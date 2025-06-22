@@ -61,6 +61,5 @@ return {
         vim.keymap.set("n", "gD", "<cmd>Lspsaga peek_definition<cr>")
 
         vim.cmd("LspStart")
-
     end,
 }
