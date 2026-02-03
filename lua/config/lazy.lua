@@ -7,6 +7,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup {
     defaults = { lazy = true },
     spec = {
+        { import = "plugins" },
     },
     lockfile = vim.fn.stdpath("data") .. "/lazy-lock.json",
     ui = { border = "rounded" },

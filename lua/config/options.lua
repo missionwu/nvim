@@ -15,8 +15,11 @@ local options = {
     shortmess = "ltToOCFI",
 
     list = true,
-    listchars = "tab:»»,trail:■",
+    listchars = "tab:» ,trail:■",
     fillchars = "eob: ,",
+
+    foldlevel = 99,
+    foldlevelstart = 99,
 
     splitright = false,
     splitbelow = true,
