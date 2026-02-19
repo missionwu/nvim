@@ -11,5 +11,6 @@ require("lazy").setup {
     },
     lockfile = vim.fn.stdpath("data") .. "/lazy-lock.json",
     ui = { border = "rounded" },
+    install = { colorscheme = { "kanagawa" } },
     change_detection = { enable = false, notify = false },
 }
