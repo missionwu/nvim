@@ -16,5 +16,11 @@ vim.api.nvim_create_autocmd("LspAttach", {
         if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint) then
             vim.lsp.inlay_hint.enable(true)
         end
+
+        -- enable diagnostic messages inline
+        vim.diagnostic.enable(true)
+        vim.diagnostic.config {
+            virtual_text = true,
+        }
     end,
 })
