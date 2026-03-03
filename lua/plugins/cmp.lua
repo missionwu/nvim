@@ -45,6 +45,7 @@ return {
                         return cmp.lsp.CompletionItemKind.Snippet ~= entry:get_kind()
                     end,
                 },
+                { name = "buffer" },
             },
             window = {
                 completion = {
