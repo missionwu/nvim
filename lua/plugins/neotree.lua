@@ -21,7 +21,6 @@ return {
             follow_current_file = {
                 enabled = true,
             },
-            group_empty_dirs = true,
         },
         default_component_configs = {
             icon = {
