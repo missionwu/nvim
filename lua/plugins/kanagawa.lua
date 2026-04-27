@@ -5,6 +5,7 @@ return {
     config = function()
         require("kanagawa").setup {
             undercurl = false,
+            commentStyle = { italic = false },
             colors = { theme = { all = { ui = { bg_gutter = "none" } } } },
             overrides = function(colors)
                 local theme = colors.theme
