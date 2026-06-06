@@ -10,7 +10,6 @@ vim.o.number = true
 vim.o.cursorline = true
 vim.o.colorcolumn = "80"
 vim.o.signcolumn = "yes"
-vim.o.laststatus = 3
 vim.o.shortmess = "ltToOCFI"
 
 vim.o.list = true

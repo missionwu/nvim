@@ -14,6 +14,7 @@ return {
         exclude = {
             filetypes = {
                 "text",
+                "markdown",
             },
         },
     },
